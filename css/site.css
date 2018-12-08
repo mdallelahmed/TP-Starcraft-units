@@ -1,0 +1,30 @@
+/* This is where you will put your own CSS. */
+/* DO NOT MODIFY bootstrap.min.css !!! */
+#modetype{
+    display: none
+}
+tr{
+    cursor: pointer;
+}
+#selectbtn{
+    position: relative;
+    left: 80%;
+}
+table{
+    border: 1px solid black;
+    table-layout: fixed;
+    width: 200px;
+}
+
+th, td {
+    overflow: hidden;
+    width: 100px;
+}
+#divtable{
+    overflow-y:auto;
+    height: 300px;
+}
+#footer{
+    margin-left: 7%;
+    display: none;
+}

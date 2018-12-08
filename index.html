@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+        <title>Starcrat Units</title>
+        <link href="./css/site.css" rel="stylesheet">
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <h1>Starcraft Units</h1>
+            </div>
+    
+                    <div class="form-group">
+                            <label for="type">UNIT Type</label>
+                            <select class="form-control" id="type" > 
+                              <option value="Marine">The Marine</option>
+                              <option value="Valkyrie">The Valkyrie</option>
+                              <option value="SiegeTank">The Siege Tank</option>
+                            </select>
+                          </div>
+                <div class="form-group">
+                  <label for="nametf">NAME</label>
+                  <input type="text" class="form-control" id="nametf"  placeholder="Enter Your Name">
+                </div>
+                <fieldset class="form-group" id="modetype">
+                        <div class="row">
+                          <legend class="col-form-label col-sm-2 pt-0">Siege Mode</legend>
+                          <div class="col-sm-10">
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="radio" id="onid" value=" ON" checked>
+                              <label class="form-check-label" for="onid">
+                                ON
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="radio" id="offid" value=" OFF">
+                              <label class="form-check-label" for="offid">
+                                OFF
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </fieldset>
+                
+                <button type="button" id ="add" class="btn btn-primary"  >ADD</button>
+
+            
+        </div><br>
+        <div class="container" id="divtable">
+                <table class="table table-hover" id="table">
+                        <tbody>
+                
+                        </tbody>
+                      </table>
+        </div>
+        <script type="text/javascript" src="/build/app.js"></script>
+        <div id="footer">
+                <div class="container">
+                        <div class="row">
+                <div class="col-10 ">
+                        <span id="span"></span>
+                </div>
+                <div class="col-2 ">
+                        <button type="button" id ="deleteitem" class="btn btn-primary"  >Delete</button>
+                </div>
+            </div></div></div>
+    </body>
+
+</html>
